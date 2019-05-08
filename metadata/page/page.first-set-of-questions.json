@@ -1,0 +1,104 @@
+{
+  "_id": "page.first-set-of-questions",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.first-set-of-questions--text.auto_name__1",
+      "_type": "text",
+      "label": "Example label for the first input text box ✅️",
+      "name": "auto_name__1"
+    },
+    {
+      "_id": "page.first-set-of-questions--text.auto_name__2",
+      "_type": "text",
+      "label": "Label for text input number two ❌️ shouldn't see me",
+      "name": "auto_name__2",
+      "labelSummary": "THE SUMMARY LABEL FOR INPUT #2 WORKS!! 🎊️ !!!!"
+    },
+    {
+      "_id": "page.first-set-of-questions--radios.auto_name__3",
+      "_type": "radios",
+      "hint": "This is some hint text",
+      "items": [
+        {
+          "_id": "page.first-set-of-questions--radios.auto_name__3--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Label for radio option #1 ✅️ should see me",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.first-set-of-questions--radios.auto_name__3--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Label for radio option #2 ❌️ shouldn't see me",
+          "labelSummary": "THE SUMMARY LABEL FOR RADIO OPTION #2 WORKS!! 🎊️",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.first-set-of-questions--radios.auto_name__3--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Label for radio option #3 ✅️ should see me",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Legend text for the radio options ❌️ shouldn't see me",
+      "name": "auto_name__3",
+      "legendSummary": "THE SUMMARY LEGEND FOR THE RADIO OPTIONS WORKS!! 🎊️"
+    },
+    {
+      "_id": "page.first-set-of-questions--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.first-set-of-questions--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "This is a label for checkbox item 1 ✨️",
+          "name": "auto_name__4"
+        },
+        {
+          "_id": "page.first-set-of-questions--checkboxes--checkbox.auto_name__5",
+          "_type": "checkbox",
+          "label": "The label for checkbox item #2 ⭐️",
+          "name": "auto_name__5"
+        },
+        {
+          "_id": "page.first-set-of-questions--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "label": "The label for checkbox item #3 🌺️",
+          "name": "auto_name__6",
+          "labelSummary": "THE SUMMARY LABEL FOR CHECKBOX OPTION #3 WORKS!! 🎊️"
+        }
+      ],
+      "legend": "Legend text for the checkboxes ✅️"
+    },
+    {
+      "_id": "page.first-set-of-questions--select.auto_name__7",
+      "_type": "select",
+      "items": [
+        {
+          "_id": "page.first-set-of-questions--select.auto_name__7--option",
+          "_type": "option",
+          "textSummary": "SUMMARY TEXT FOR SELECT BOX OPTION 1 IS WORKING ✅️",
+          "text": "This is the select box option text for item #1  ❌️ shouldn't see me",
+          "value": "Item 1 in the select box"
+        },
+        {
+          "_id": "page.first-set-of-questions--select.auto_name__7--option--2",
+          "_type": "option",
+          "text": "This is the select box option text for item #2",
+          "value": "Item 2 in the select box!"
+        },
+        {
+          "_id": "page.first-set-of-questions--select.auto_name__7--option--3",
+          "_type": "option",
+          "value": "3333"
+        }
+      ],
+      "label": "Label text for the select box ❌️ shouldn't see me",
+      "name": "auto_name__7",
+      "labelSummary": "Summary Label text for the select box ✅️ should see me"
+    }
+  ],
+  "heading": "The main page heading ❌️",
+  "headingSummary": "Summary main page head ✅️",
+  "url": "first-set-of-questions"
+}

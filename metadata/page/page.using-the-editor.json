@@ -1,0 +1,61 @@
+{
+  "_id": "page.using-the-editor",
+  "_type": "page.form",
+  "body": "Some optional content!",
+  "components": [
+    {
+      "_id": "page.using-the-editor--text.auto_name__8",
+      "_type": "text",
+      "hint": "This is some hint text!",
+      "label": "Some label - shouldn't see me! ❌️",
+      "name": "auto_name__8",
+      "labelSummary": "Summary label - should see me! ✅️"
+    },
+    {
+      "_id": "page.using-the-editor--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.using-the-editor--checkboxes--checkbox.auto_name__9",
+          "_type": "checkbox",
+          "label": "Label for a check box item , should see me ✅️",
+          "name": "auto_name__9"
+        },
+        {
+          "_id": "page.using-the-editor--checkboxes--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "label": "Label for checkbox item - don't see me ❌️",
+          "name": "auto_name__10",
+          "labelSummary": "Setting a new summary label for checkbox item!!"
+        }
+      ],
+      "legend": "Legend text - don't see me ❌️",
+      "legendSummary": "New legend text!!  🎫️"
+    },
+    {
+      "_id": "page.using-the-editor--section",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.using-the-editor--section--text.auto_name__11",
+          "_type": "text",
+          "label": "group text 1",
+          "name": "auto_name__11"
+        },
+        {
+          "_id": "page.using-the-editor--section--text.auto_name__12",
+          "_type": "text",
+          "label": "group text 2",
+          "name": "auto_name__12"
+        }
+      ]
+    }
+  ],
+  "heading": "The heading of the second question page ❌️",
+  "lede": "An optional first paragraph",
+  "sectionHeading": "The section heading page 2!!!! ❌️",
+  "headingSummary": "This is the summary page heading page 2 ✅️",
+  "sectionHeadingSummary": "This is the summary section heading page 2 ✅️",
+  "title": "Page 2 of questions title",
+  "url": "using-the-editor"
+}
